@@ -4,11 +4,10 @@ import UserCard from './UserCard'
 
 
 function App() {
-  //const userInfo = JSON.parse(user);
-  //console.log(user);
+  
   return (
     <div>
-      <UserCard name={user.name} age={user.age} phone={user.phoneNumber} address={user.address}/>
+      <UserCard name={user.name} age={user.age} phone={user.phoneNumbergt} address={user.address}/>
       
     </div>
   )
